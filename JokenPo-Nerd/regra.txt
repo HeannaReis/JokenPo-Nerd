@@ -1,0 +1,10 @@
+Tesoura > Papel
+Papel > Pedra
+Pedra > Lagarto
+Lagarto > Spock
+Spock > Tesoura
+Tesoura > Lagarto
+Lagarto > Papel
+Papel > Spock
+Spock > Pedra
+Pedra > Tesoura
