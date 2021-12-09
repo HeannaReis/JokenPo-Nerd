@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +29,7 @@ namespace JokenPo_Nerd
             pictureBox1.Image = Properties.Resources.i;
             button1.Enabled = false;
         }
-    private void label1_Click(object sender, EventArgs e)
+         private void label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -340,6 +340,19 @@ namespace JokenPo_Nerd
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            jogador = 0;
+            computador = 0;
+            label3.Text = jogador.ToString();
+            label4.Text = computador.ToString();
+            label6.Text = "Jogador";    
+            textBox1.Visible = true;
+            button3.Visible = true;
+            label5.Text = " Digite seu Nome e Tecle Ok !!! ";
         }
     }
 }
