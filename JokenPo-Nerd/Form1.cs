@@ -12,7 +12,7 @@ namespace JokenPo_Nerd
 {
     public partial class Form1 : Form
     {
-        string[] cpulist = { "r", "p", "s", "l", "k", "r", "p", "s", "l", "k" };
+        string[] cpulist = { "r", "p", "s", "l", "k"};
         public int aleatorio;
         string armas;
         Random rnd  = new Random();
@@ -29,22 +29,6 @@ namespace JokenPo_Nerd
             pictureBox1.Image = Properties.Resources.i;
             button1.Enabled = false;
         }
-         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
         private void pblagarto_Click(object sender, EventArgs e)
         {
             suajogada = "l";
@@ -55,6 +39,7 @@ namespace JokenPo_Nerd
             pbspock.Visible = false;
             pblagarto.Visible = false;
             button1.Enabled = true;
+            label1.Visible = false;
         }
         private void pbpapel_Click(object sender, EventArgs e)
         {
@@ -66,6 +51,7 @@ namespace JokenPo_Nerd
             pbspock.Visible = false;
             pbpapel.Visible = false;
             button1.Enabled = true;
+            label1.Visible = false;
         }
         private void pbpedra_Click(object sender, EventArgs e)
         {
@@ -77,6 +63,7 @@ namespace JokenPo_Nerd
             pbspock.Visible = false;
             pbpedra.Visible = false;
             button1.Enabled = true;
+            label1.Visible = false;
         }
         private void pbtesoura_Click(object sender, EventArgs e)
         {
@@ -88,6 +75,7 @@ namespace JokenPo_Nerd
             pbspock.Visible = false;
             pbtesoura.Visible = false;
             button1.Enabled = true;
+            label1.Visible = false;
         }
         private void pbspock_Click(object sender, EventArgs e)
         {
@@ -99,6 +87,7 @@ namespace JokenPo_Nerd
             pbpapel.Visible = false;
             pbspock.Visible = false;
             button1.Enabled = true;
+            label1.Visible = false;
         }        
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -109,10 +98,6 @@ namespace JokenPo_Nerd
             pbpapel.Visible = true;
             pictureBox1.Image = Properties.Resources.i;
             button1.Enabled = false;
-        }
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-         
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -306,23 +291,12 @@ namespace JokenPo_Nerd
             pictureBox2.Image = Properties.Resources.i;
             pictureBox1.Image = Properties.Resources.i;
             button1.Enabled = false;
+            label1.Visible = true;
             {
             
             }
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-            
-        }
-        private void label4_Click(object sender, EventArgs e)
-        {
-            
-        }
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show(" Até logo " + textBox1.Text);
@@ -336,12 +310,6 @@ namespace JokenPo_Nerd
             textBox1.Visible = false;
             button3.Visible = false;
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
@@ -354,7 +322,46 @@ namespace JokenPo_Nerd
             button3.Visible = true;
             label5.Text = " Digite seu Nome e Tecle Ok !!! ";
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
 
 
