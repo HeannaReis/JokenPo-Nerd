@@ -1,4 +1,4 @@
-﻿
+
 namespace JokenPo_Nerd
 {
     partial class Form1
@@ -49,6 +49,7 @@ namespace JokenPo_Nerd
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.pbtesoura = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pblagarto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbpapel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbpedra)).BeginInit();
@@ -61,7 +62,7 @@ namespace JokenPo_Nerd
             // pblagarto
             // 
             this.pblagarto.Image = global::JokenPo_Nerd.Properties.Resources.l;
-            this.pblagarto.Location = new System.Drawing.Point(20, 55);
+            this.pblagarto.Location = new System.Drawing.Point(11, 45);
             this.pblagarto.Name = "pblagarto";
             this.pblagarto.Size = new System.Drawing.Size(100, 128);
             this.pblagarto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -72,7 +73,7 @@ namespace JokenPo_Nerd
             // pbpapel
             // 
             this.pbpapel.Image = global::JokenPo_Nerd.Properties.Resources.p;
-            this.pbpapel.Location = new System.Drawing.Point(135, 55);
+            this.pbpapel.Location = new System.Drawing.Point(126, 45);
             this.pbpapel.Name = "pbpapel";
             this.pbpapel.Size = new System.Drawing.Size(100, 128);
             this.pbpapel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -83,7 +84,7 @@ namespace JokenPo_Nerd
             // pbpedra
             // 
             this.pbpedra.Image = global::JokenPo_Nerd.Properties.Resources.r;
-            this.pbpedra.Location = new System.Drawing.Point(251, 55);
+            this.pbpedra.Location = new System.Drawing.Point(242, 45);
             this.pbpedra.Name = "pbpedra";
             this.pbpedra.Size = new System.Drawing.Size(100, 128);
             this.pbpedra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -94,7 +95,7 @@ namespace JokenPo_Nerd
             // pbspock
             // 
             this.pbspock.Image = global::JokenPo_Nerd.Properties.Resources.k;
-            this.pbspock.Location = new System.Drawing.Point(495, 46);
+            this.pbspock.Location = new System.Drawing.Point(486, 36);
             this.pbspock.Name = "pbspock";
             this.pbspock.Size = new System.Drawing.Size(100, 146);
             this.pbspock.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -105,13 +106,13 @@ namespace JokenPo_Nerd
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(214, 197);
+            this.label1.Location = new System.Drawing.Point(144, 195);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 28);
+            this.label1.Size = new System.Drawing.Size(295, 25);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Esolha Sua Arma";
+            this.label1.Text = "Esolha Sua Arma e Aperte Jogar";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -128,7 +129,7 @@ namespace JokenPo_Nerd
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.DarkRed;
-            this.label3.Location = new System.Drawing.Point(202, 327);
+            this.label3.Location = new System.Drawing.Point(193, 317);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(14, 15);
             this.label3.TabIndex = 7;
@@ -141,7 +142,7 @@ namespace JokenPo_Nerd
             this.label4.Cursor = System.Windows.Forms.Cursors.Cross;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DarkRed;
-            this.label4.Location = new System.Drawing.Point(387, 327);
+            this.label4.Location = new System.Drawing.Point(378, 317);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(14, 15);
             this.label4.TabIndex = 8;
@@ -153,7 +154,7 @@ namespace JokenPo_Nerd
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.MediumOrchid;
-            this.label5.Location = new System.Drawing.Point(60, 18);
+            this.label5.Location = new System.Drawing.Point(51, 8);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(189, 19);
             this.label5.TabIndex = 9;
@@ -165,7 +166,7 @@ namespace JokenPo_Nerd
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label6.Location = new System.Drawing.Point(184, 361);
+            this.label6.Location = new System.Drawing.Point(175, 351);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(65, 19);
             this.label6.TabIndex = 10;
@@ -177,7 +178,7 @@ namespace JokenPo_Nerd
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label7.Location = new System.Drawing.Point(354, 361);
+            this.label7.Location = new System.Drawing.Point(345, 351);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(94, 19);
             this.label7.TabIndex = 11;
@@ -185,7 +186,7 @@ namespace JokenPo_Nerd
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(262, 278);
+            this.button1.Location = new System.Drawing.Point(253, 268);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(78, 30);
             this.button1.TabIndex = 12;
@@ -195,7 +196,7 @@ namespace JokenPo_Nerd
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(262, 409);
+            this.button2.Location = new System.Drawing.Point(508, 413);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(78, 30);
             this.button2.TabIndex = 13;
@@ -208,7 +209,7 @@ namespace JokenPo_Nerd
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.Chocolate;
-            this.label8.Location = new System.Drawing.Point(496, 233);
+            this.label8.Location = new System.Drawing.Point(487, 223);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(90, 19);
             this.label8.TabIndex = 15;
@@ -217,9 +218,9 @@ namespace JokenPo_Nerd
             // pictureBox2
             // 
             this.pictureBox2.Image = global::JokenPo_Nerd.Properties.Resources.i;
-            this.pictureBox2.Location = new System.Drawing.Point(463, 278);
+            this.pictureBox2.Location = new System.Drawing.Point(457, 268);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(132, 139);
+            this.pictureBox2.Size = new System.Drawing.Size(129, 139);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
@@ -230,7 +231,7 @@ namespace JokenPo_Nerd
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.Chocolate;
-            this.label9.Location = new System.Drawing.Point(27, 233);
+            this.label9.Location = new System.Drawing.Point(25, 223);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 19);
             this.label9.TabIndex = 18;
@@ -239,7 +240,7 @@ namespace JokenPo_Nerd
             // pictureBox1
             // 
             this.pictureBox1.Image = global::JokenPo_Nerd.Properties.Resources.i;
-            this.pictureBox1.Location = new System.Drawing.Point(20, 278);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 268);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(129, 139);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -249,7 +250,7 @@ namespace JokenPo_Nerd
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(262, 17);
+            this.textBox1.Location = new System.Drawing.Point(253, 7);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(134, 23);
             this.textBox1.TabIndex = 19;
@@ -257,7 +258,7 @@ namespace JokenPo_Nerd
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(403, 17);
+            this.button3.Location = new System.Drawing.Point(394, 7);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(40, 23);
             this.button3.TabIndex = 20;
@@ -268,7 +269,7 @@ namespace JokenPo_Nerd
             // pbtesoura
             // 
             this.pbtesoura.Image = global::JokenPo_Nerd.Properties.Resources.s;
-            this.pbtesoura.Location = new System.Drawing.Point(374, 55);
+            this.pbtesoura.Location = new System.Drawing.Point(365, 45);
             this.pbtesoura.Name = "pbtesoura";
             this.pbtesoura.Size = new System.Drawing.Size(100, 128);
             this.pbtesoura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -276,13 +277,24 @@ namespace JokenPo_Nerd
             this.pbtesoura.TabStop = false;
             this.pbtesoura.Click += new System.EventHandler(this.pbtesoura_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(253, 408);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(78, 30);
+            this.button4.TabIndex = 21;
+            this.button4.Text = "Limpar";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(632, 450);
+            this.ClientSize = new System.Drawing.Size(612, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
@@ -344,6 +356,7 @@ namespace JokenPo_Nerd
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pbtesoura;
+        private System.Windows.Forms.Button button4;
     }
 }
 
